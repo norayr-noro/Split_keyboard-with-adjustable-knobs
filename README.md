@@ -24,7 +24,7 @@ This list may expand as the project progresses and improvements are made.
 ## Libraries
 All libraries i used are in the stasis hackclub guide(https://stasis.hackclub.com/starter-projects/split-keyboard) + i also used the symbols and footprints for the raspberry pi from ScottoKeeb's (i recommend checking him out for anything custom keyboard related!!his youtube channel is https://www.youtube.com/watch?v=8WXpGTIbxlQ&list=PLBD2IS_t_iWZDMdG_ZF57x9Ebm3kxKqxF&index=3)
 
-## 🧠 Design Choices
+## 🧠 Design 
 
 This project started with the Hack Club Stasis guide as a foundation, but quickly evolved with several personal modifications and decisions.
 
@@ -59,7 +59,7 @@ The keyboard is planned to run on **ZMK firmware**, which offers:
 * Rotary encoder integration
 
 ZMK was chosen for its flexibility and modern feature set, especially for custom keyboard builds.
-
+from https://zmk.dev/docs/features/split-keyboards
 ---
 
 ## 📈 Current Progress
@@ -74,7 +74,7 @@ At this point, the project is largely designed and ready for refinement, prototy
 
 ---
 
-## 🎯 Goals & Motivation
+## 🎯 Goals 
 
 The main motivation behind this project was practicality and learning.
 
