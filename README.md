@@ -120,5 +120,12 @@ These add an extra layer of interactivity beyond standard key input.
 This project has been a mix of challenges and progress — from learning new tools like KiCad and Fusion 360, to troubleshooting design decisions along the way.
 
 While not everything is perfect (and some parts are intentionally simple), the focus has always been for me is  on learning, building, and improving. Every step adds more understanding, making future iterations even better.
-
 Overall, a fun, slightly chaotic, but very rewarding build.
+## Photos of where im at now 
+<img width="1263" height="709" alt="Screenshot 2026-04-25 164629" src="https://github.com/user-attachments/assets/147caf14-cafe-4e1b-bd39-6e3058d02d10" />
+
+
+<img width="1366" height="706" alt="Screenshot 2026-04-26 142844" src="https://github.com/user-attachments/assets/b94624c7-36c7-49bc-9fa7-d51baad8dec8" />
+
+
+Ill also attach the .step file for the PCB and the .f3d file for the 3d model i  have worked on to this repository for future reference...
