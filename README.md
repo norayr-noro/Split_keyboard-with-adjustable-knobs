@@ -4,9 +4,7 @@ A fully custom split mechanical keyboard designed and built from the ground up �
 
 ---
 
-## 🔧 Components
-
-This keyboard is built using a mix of readily available parts and custom-designed elements:
+## Components
 
 * **56 × Cherry MX switches** — reliable, widely used mechanical switches
 * **56 × 1N5819 diodes** — used in the switch matrix to prevent ghosting
@@ -18,11 +16,9 @@ This keyboard is built using a mix of readily available parts and custom-designe
 * **3D printed case** (designed in Fusion 360)
 * **~8 × M2 screws** (subject to change as the design evolves)
 
-This list may expand as the project progresses and improvements are made.
-
 ---
 ## Libraries
-All libraries i used are in the stasis hackclub guide(https://stasis.hackclub.com/starter-projects/split-keyboard) + i also used the symbols and footprints for the raspberry pi from ScottoKeeb's (i recommend checking him out for anything custom keyboard related!!his youtube channel is https://www.youtube.com/watch?v=8WXpGTIbxlQ&list=PLBD2IS_t_iWZDMdG_ZF57x9Ebm3kxKqxF&index=3)
+All libraries i used are in the Stasis Hackclub guide(https://stasis.hackclub.com/starter-projects/split-keyboard) + I also used the symbols and footprints for the Raspberry Pi from ScottoKeeb's (i recommend checking him out for anything custom keyboard related!!his youtube channel is https://www.youtube.com/watch?v=8WXpGTIbxlQ&list=PLBD2IS_t_iWZDMdG_ZF57x9Ebm3kxKqxF&index=3)
 
 ## 🧠 Design 
 
@@ -45,20 +41,14 @@ For design tools:
 * **KiCad** was used to design the schematic and PCB layout
 * **Fusion 360** was used to create the keyboard case and overall structure
 
-The case design is relatively simple due to the square nature of the PCB, which limits more advanced shaping — but it serves as a solid starting point.
+The case design is relatively simple due to the square nature of the PCB, which limits more advanced shaping — Mostly because im not good at all in 3d modeling...
 
 ---
 
 ## ⚙️ Firmware
 
 The keyboard is planned to run on **ZMK firmware**, which offers:
-
-* Support for split keyboards
-* Wireless capabilities (planned for future implementation)
-* Custom keymaps and layers
-* Rotary encoder integration
-
-ZMK was chosen for its flexibility and modern feature set, especially for custom keyboard builds.
+ZMK was chosen mostly because it's quite flexible, especially for custom keyboard builds.
 from https://zmk.dev/docs/features/split-keyboards
 ---
 
@@ -118,10 +108,9 @@ These add an extra layer of interactivity beyond standard key input.
 ## 💭 Final Thoughts
 
 This project has been a mix of challenges and progress — from learning new tools like KiCad and Fusion 360, to troubleshooting design decisions along the way.
-
-While not everything is perfect (and some parts are intentionally simple), the focus has always been for me is  on learning, building, and improving. Every step adds more understanding, making future iterations even better.
+While not everything is perfect (and some parts are intentionally simple), the focus for me has always been  on learning, building, and improving. Every step adds more understanding, making future iterations even better.
 Overall, a fun, slightly chaotic, but very rewarding build.
-## Photos of where im at now 
+## Photos of where I'm at now 
 <img width="1263" height="709" alt="Screenshot 2026-04-25 164629" src="https://github.com/user-attachments/assets/147caf14-cafe-4e1b-bd39-6e3058d02d10" />
 
 
