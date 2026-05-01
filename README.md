@@ -2,43 +2,32 @@
 Building a split keyboard might sound a bit difficult for a beginner, mostly because of how much you'd learn,and thats why i think its a good project to start of with! Im building this slit keyboard mostly because the project uses pcb designing, schematic building and even cad modelling  all in one!Might sound like a lot but thats why i thought this project is ideal for a begginer.
 ---
 ## Components
-
-* **56 × Cherry MX switches** — reliable, widely used mechanical switches
-* **56 × 1N5819 diodes** — used in the switch matrix to prevent ghosting
-* **2 × Raspberry Pi Pico** — dual microcontroller setup for each half
-* **2 × EC11E rotary encoders** (20mm D-shaft preferred)
-* **2 × LiPo batteries** — planned for portable power
-* **2 × TP4056 charging modules** — for battery charging and management
+Here I'll put down all the components I will likely use in the full project (most of this is subject to change):
+* **56 × Cherry MX switches** 
+* **56 × 1N5819 diodes**
+* **2 × Raspberry Pi Pico** 
+* **2 × EC11E rotary encoders**
+* **2 × LiPo batteries** (1000-2000mah)
+* **2 × TP4056 charging modules** 
 * **Custom-designed PCB**
-* **3D printed case** (designed in Fusion 360)
-* **~8 × M2 screws** (subject to change as the design evolves)
+* **3D printed case + plate** 
+* **~8 × M2 screws** 
 
 ---
 ## Libraries
-All libraries i used are in the Stasis Hackclub guide(https://stasis.hackclub.com/starter-projects/split-keyboard) + I also used the symbols and footprints for the Raspberry Pi from ScottoKeeb's (i recommend checking him out for anything custom keyboard related!!his youtube channel is https://www.youtube.com/watch?v=8WXpGTIbxlQ&list=PLBD2IS_t_iWZDMdG_ZF57x9Ebm3kxKqxF&index=3)
+All libraries I used are in the Stasis Hackclub guide(https://stasis.hackclub.com/starter-projects/split-keyboard) + I also used the symbols and footprints for the Raspberry Pi from ScottoKeeb's (I recommend checking him out for anything custom keyboard related!!his YouTube channel is https://www.youtube.com/watch?v=8WXpGTIbxlQ&list=PLBD2IS_t_iWZDMdG_ZF57x9Ebm3kxKqxF&index=3)
 
 ## 🧠 Design 
 
-This project started with the Hack Club Stasis guide as a foundation, but quickly evolved with several personal modifications and decisions.
+This project started with the Hack Club Stasis guide as a foundation, but i changed a few bits here and there and turned into this project!
 
-One of the biggest changes was switching from the **XIAO nRF52840 (SMD)** to the **Raspberry Pi Pico**. This decision was mainly driven by:
-
-* Easier handling (especially compared to SMD components)
-* Greater availability
-* More accessible GPIO pins for expansion and flexibility
-
+One of the biggest changes was switching from the **XIAO nRF52840 (SMD)** to the **Raspberry Pi Pico**. The reason for that is mostly for convinience as i had a few picos lying around, and also more GPIO pins to make a proper keyboard.(more pins = more rows/columbs = more keys)
 To manage inputs efficiently, the keyboard uses a **diode + switch matrix**, which:
-
-* Reduces the number of required GPIO pins
-* Improves performance
-* Simplifies wiring and scalability
-
-For design tools:
-
+For the apps used in designing:
 * **KiCad** was used to design the schematic and PCB layout
-* **Fusion 360** was used to create the keyboard case and overall structure
+* **Fusion 360** was used to create the keyboard case and plate.
 
-The case design is relatively simple due to the square nature of the PCB, which limits more advanced shaping — Mostly because im not good at all in 3d modeling...
+The case surrounding the pcb is literally a square — Mostly because im not good at all in 3d modeling...(but if you at CAD software its a really easy thing!)
 
 ---
 
@@ -51,13 +40,7 @@ from https://zmk.dev/docs/features/split-keyboards
 
 ## 📈 Current Progress
 
-So far, the project has reached an advanced design stage:
-
-* ✅ Schematic fully designed in KiCad
-* ✅ PCB layout completed and routed
-* ✅ 3D case modeled in Fusion 360
-
-At this point, the project is largely designed and ready for refinement, prototyping, and physical assembly.
+So far, the project has reached a final stage of design and im left waiting for the pcb and the print to finish.
 
 ---
 
@@ -65,48 +48,23 @@ At this point, the project is largely designed and ready for refinement, prototy
 
 The main motivation behind this project was practicality and learning.
 
-Since most of the required components were already available, it made sense to start building immediately rather than waiting or over-planning. This allowed for faster iteration and more hands-on experience.
+Sinec everything i needed was available this was easy to understand and know what i was doing.
 
-Key goals include:
-
-* Developing real-world PCB design skills
-* Learning CAD and mechanical design through Fusion 360
-* Understanding how hardware and firmware integrate
-* Building a fully functional and personalized keyboard
-
----
-
-## ✨ Features
-
-* Split ergonomic keyboard layout
-* Fully custom PCB design
-* Dual microcontroller architecture
-* Expandable and modifiable design
 
 ### 🔄 Rotary Encoders
 
-* One encoder dedicated to **volume control**
-* One encoder dedicated to **brightness adjustment**
-
-These add an extra layer of interactivity beyond standard key input.
-
+I also added these rotary encoders(one each hand) to control sound and brightness of the screen. These just make the design more fun and uniqe and it would not change a lot of these were not on the pcb
 ---
 
 ## 🚀 Next Steps
 
-* Final PCB polishing and validation
-* Refinement of the 3D printed case
-* Firmware setup and configuration (ZMK)
-* Physical assembly and testing
-* Iteration based on performance and usability
-
+Final steps are to fully solder and assemble the PCB, upload the firmware, and wait for the print to finish
 ---
 
 ## 💭 Final Thoughts
-
-This project has been a mix of challenges and progress — from learning new tools like KiCad and Fusion 360, to troubleshooting design decisions along the way.
-While not everything is perfect (and some parts are intentionally simple), the focus for me has always been  on learning, building, and improving. Every step adds more understanding, making future iterations even better.
-Overall, a fun, slightly chaotic, but very rewarding build.
+This project had its ups and downs, but that didnt stop me from learing how actuall parts are made, from learning kicad and fusion360 to check if my design are actually viable was really hardd.
+Even though its not perfect(its not even good tbh) it fell quite fun to learn and build and improve on the project!
+Overall quite fun and chaotic, but with an actuall reward at the end.
 ## Photos of where I'm at now 
 <img width="1263" height="709" alt="Screenshot 2026-04-25 164629" src="https://github.com/user-attachments/assets/147caf14-cafe-4e1b-bd39-6e3058d02d10" />
 
