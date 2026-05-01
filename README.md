@@ -1,9 +1,6 @@
 # ⌨️ Split Keyboard Project
-
-A fully custom split mechanical keyboard designed and built from the ground up — combining electronics, PCB design, CAD modeling, and firmware into one hands-on project. This build focuses on learning by doing, experimenting with design choices, and creating a functional, personal piece of hardware.
-
+Building a split keyboard might sound a bit difficult for a beginner, mostly because of how much you'd learn,and thats why i think its a good project to start of with! Im building this slit keyboard mostly because the project uses pcb designing, schematic building and even cad modelling  all in one!Might sound like a lot but thats why i thought this project is ideal for a begginer.
 ---
-
 ## Components
 
 * **56 × Cherry MX switches** — reliable, widely used mechanical switches
