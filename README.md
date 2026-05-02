@@ -3,15 +3,16 @@ Building a split keyboard might sound a bit difficult for a beginner, mostly bec
 ---
 ## Components
 Here I'll put down all the components I will likely use in the full project (most of this is subject to change):
-* **56 × Cherry MX switches** 
-* **56 × 1N5819 diodes**
-* **2 × Raspberry Pi Pico** 
-* **2 × EC11E rotary encoders**
-* **2 × LiPo batteries** (1000-2000mah)
-* **2 × TP4056 charging modules** 
+* **56 × Cherry MX switches** (i got them from **https://www.ebay.co.uk/itm/187479375359**)
+* **56 × 1N5819 diodes** (got these from https://www.rapidonline.com/st-1n5819-schottky-diode-40v-1a-do41-47-2566)
+* **2 × Raspberry Pi Pico W** (had these, but a viable place to buy them from might be https://shorturl.at/DVdZd )
+* **2 × EC11E rotary encoders** (from the hackpad guide https://www.adafruit.com/product/377)
+* **2 × LiPo batteries** (1000-2000mah) (i used these  1500 mah https://www.rapidonline.com/akyga-aky0105-battery-pack-lipo-3-7v-1500mah-rechargeable-13-6243)
+* **2 × TP4056 charging modules** (from 2piece https://www.ebay.co.uk/itm/295410567795?var=593544577789)
 * **Custom-designed PCB**
 * **3D printed case + plate** 
-* **~8 × M2 screws** 
+* **~8 × M2 screws**
+* 2 on/off simple switches (i used bought these https://www.rapidonline.com/r-tech-522783-rocker-switch-spst-on-off-250v-ac-10a-52-2783)
 
 ---
 ## Libraries
