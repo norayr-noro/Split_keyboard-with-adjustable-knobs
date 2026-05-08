@@ -59,8 +59,13 @@ I also added these rotary encoders(one each hand) to control sound and brightnes
 
 ## 🚀 Next Steps
 
-Final steps are to fully solder and assemble the PCB, upload the firmware, and wait for the print to finish
+The final steps are to fully solder and assemble the PCB, upload the firmware, and wait for the print to finish
 ---
+## UPDATES
+After careful review, I have changed quite a few things. I'll shortly list down what I have updated in this build. The first few changes I did were about the PCB. Changed the full design of the PCB to make it as slim as possible (could've done better tbh) to lower cost of manufacturing the PCB + the fact it would look like a cleaner and nicer build in general. After that i changed the Raspberry Pi Pico footprint to the one I had, and I'll be using the Raspberry Pi Pico W (mostly because of convenience, because I had a few already) even though it didn't really change anything for the wiring. 
+Continuing with those changes, I moved on to the CAD models, changed the case and plate to fit the new PCB and mostly did some polishing for where the USB-C would go.
+Finally, I added a BOM file(s) of where you could get those parts.
+(note to reviewer: Fwi the BOM is a file where you "could" get those parts I, but I already had the mechanical switches + the Raspberry Pi Ws + LiPo's, and even the diodes, so I mostly just needed the PCB and the TP4056s, i just knew it might be rejected if i didnt add the file so its there. Also, the fees are so high because me being in the UK, so that might be a reason why, in reality, it "probably" would cost that much...)
 
 ## 💭 Final Thoughts
 This project had its ups and downs, but that didnt stop me from learing how actuall parts are made, from learning kicad and fusion360 to check if my design are actually viable was really hardd.
