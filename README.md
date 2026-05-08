@@ -69,7 +69,7 @@ Continuing with those changes, I moved on to the CAD models, changed the case an
 
 
 
-(note to reviewer: Fwi the BOM is a file where you "could" get those parts I, but I already had the mechanical switches + the Raspberry Pi Ws + LiPo's, and even the diodes, so I mostly just needed the PCB and the TP4056s, i just knew it might be rejected if i didnt add the file so its there. Also, the fees are so high because me being in the UK, so that might be a reason why, in reality, it "probably" would cost that much...)
+(note to reviewer: Fwi the BOM is a file where you "could" get those parts I, but I already had the mechanical switches + the Raspberry Pi Ws + LiPo's, and even the diodes, so I mostly just needed the PCB and the TP4056s, i just knew it might be rejected if i didnt add the file so its there. Also, the fees are so high because me being in the UK, so that might be a reason why, in reality, it "probably" would cost that much...(also i dont need any funding for this i just wanted to do this as a passion project!!! :) )
 
 ## 💭 Final Thoughts
 This project had its ups and downs, but that didnt stop me from learing how actuall parts are made, from learning kicad and fusion360 to check if my design are actually viable was really hardd.
