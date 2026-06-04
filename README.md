@@ -7,6 +7,15 @@ Building a split keyboard might sound a bit difficult for a beginner, mostly bec
 ---
 ## Components
 Here I'll put down all the components I will likely use in the full project:
+|ITEM | URL | QUANTITY |PRICE (USD) |
+|-------| ------| ---------------| ---------- |
+|cherry-mx style switches| https://www.ebay.co.uk/itm/187479375359| 56 | 14.58|
+|1N5819 diodes|https://www.rapidonline.com/st-1n5819-schottky-diode-40v-1a-do41-47-2566|56| 5.4| 
+|Raspberry Pi Pico W|https://shorturl.at/rgenT|2|15.57|
+|EC11E rotary encoders|https://www.adafruit.com/product/377|2|9|
+|LiPo batteries (1500mah)	|https://shorturl.at/IHMxN|2|18.79|
+|TP4056 modules|https://www.ebay.co.uk/itm/295410567795?var=593544577789|2|3.22|
+|SS12D10 slide switches|	https://shorturl.at/kdSMI|2|2.68|
 
 
 ---
