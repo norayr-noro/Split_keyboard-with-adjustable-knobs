@@ -1,7 +1,8 @@
 # ⌨️ Split Keyboard Project
 Building a split keyboard might sound a bit difficult for a beginner, mostly because of how much you'd learn, and that's why i think its a good project to start of with! Im building this slit keyboard mostly because the project uses pcb designing, schematic building and even cad modelling  all in one! Might sound like a lot, but that's why I thought this project is ideal for a beginner.
 
-<img width="1122" height="473" alt="Final_PCB(3d)" src="https://github.com/user-attachments/assets/2166e008-fff8-429d-a81c-042851785206" />
+<img width="670" height="285" alt="Screenshot 2026-06-04 205529" src="https://github.com/user-attachments/assets/dac62670-7257-45a9-ab61-4fdbf0fc2a43" />
+
 
 ---
 ## Components
