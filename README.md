@@ -1,18 +1,12 @@
 # ⌨️ Split Keyboard Project
-Building a split keyboard might sound a bit difficult for a beginner, mostly because of how much you'd learn,and thats why i think its a good project to start of with! Im building this slit keyboard mostly because the project uses pcb designing, schematic building and even cad modelling  all in one!Might sound like a lot but thats why i thought this project is ideal for a begginer.
+Building a split keyboard might sound a bit difficult for a beginner, mostly because of how much you'd learn, and that's why i think its a good project to start of with! Im building this slit keyboard mostly because the project uses pcb designing, schematic building and even cad modelling  all in one! Might sound like a lot, but that's why I thought this project is ideal for a beginner.
+
+<img width="1122" height="473" alt="Final_PCB(3d)" src="https://github.com/user-attachments/assets/2166e008-fff8-429d-a81c-042851785206" />
+
 ---
 ## Components
-Here I'll put down all the components I will likely use in the full project (most of this is subject to change):
-* **56 × Cherry MX switches** (i got them from **https://www.ebay.co.uk/itm/187479375359**)
-* **56 × 1N5819 diodes** (got these from https://www.rapidonline.com/st-1n5819-schottky-diode-40v-1a-do41-47-2566)
-* **2 × Raspberry Pi Pico W** (had these, but a viable place to buy them from might be https://shorturl.at/DVdZd )
-* **2 × EC11E rotary encoders** (from the hackpad guide https://www.adafruit.com/product/377)
-* **2 × LiPo batteries** (1000-2000mah) (i used these  1500 mah https://www.rapidonline.com/akyga-aky0105-battery-pack-lipo-3-7v-1500mah-rechargeable-13-6243)
-* **2 × TP4056 charging modules** (from 2piece https://www.ebay.co.uk/itm/295410567795?var=593544577789)
-* **Custom-designed PCB**
-* **3D printed case + plate** 
-* **~8 × M2 screws**
-* 2 on/off simple switches (i used bought these https://www.rapidonline.com/r-tech-522783-rocker-switch-spst-on-off-250v-ac-10a-52-2783)
+Here I'll put down all the components I will likely use in the full project:
+
 
 ---
 ## Libraries
@@ -62,24 +56,22 @@ I also added these rotary encoders(one each hand) to control sound and brightnes
 The final steps are to fully solder and assemble the PCB, upload the firmware, and wait for the print to finish
 ---
 ## UPDATES
-After careful review, I have changed quite a few things. I'll shortly list down what I have updated in this build. The first few changes I did were about the PCB. Changed the full design of the PCB to make it as slim as possible (could've done better tbh) to lower cost of manufacturing the PCB + the fact it would look like a cleaner and nicer build in general. After that i changed the Raspberry Pi Pico footprint to the one I had, and I'll be using the Raspberry Pi Pico W (mostly because of convenience, because I had a few already) even though it didn't really change anything for the wiring. 
-Continuing with those changes, I moved on to the CAD models, changed the case and plate to fit the new PCB and mostly did some polishing for where the USB-C would go.Finally, I added a BOM file(s) of where you could get those parts.
+ Changed the full design of the PCB to make it as slim as possible (could've done better tbh) to lower the cost of manufacturing the PCB + the fact it would look like a cleaner and nicer build in general. After that, I shifted the Pico W upwards for easier access to the USB port and simpler routing and debugging
+Continuing with those changes, I moved on to the CAD models, changed the case and plate to fit the new PCB, and mostly did some polishing for where the USB-C would go. Finally, I added a BOM file(s) of where you could get those parts.
 
-
-
-
-
-(note to reviewer: Fwi the BOM is a file where you "could" get those parts I, but I already had the mechanical switches + the Raspberry Pi Ws + LiPo's, and even the diodes, so I mostly just needed the PCB and the TP4056s, i just knew it might be rejected if i didnt add the file so its there. Also, the fees are so high because me being in the UK, so that might be a reason why, in reality, it "probably" would cost that much...(also i dont need any funding for this i just wanted to do this as a passion project!!! :) )
 
 ## 💭 Final Thoughts
 This project had its ups and downs, but that didnt stop me from learing how actuall parts are made, from learning kicad and fusion360 to check if my design are actually viable was really hardd.
 Even though its not perfect(its not even good tbh) it fell quite fun to learn and build and improve on the project!
 Overall quite fun and chaotic, but with an actuall reward at the end.
 ## Photos of where I'm at now 
-<img width="1263" height="709" alt="Screenshot 2026-04-25 164629" src="https://github.com/user-attachments/assets/147caf14-cafe-4e1b-bd39-6e3058d02d10" />
 
-
-<img width="1366" height="706" alt="Screenshot 2026-04-26 142844" src="https://github.com/user-attachments/assets/b94624c7-36c7-49bc-9fa7-d51baad8dec8" />
+<img width="1085" height="631" alt="Screenshot 2026-04-26 144541" src="https://github.com/user-attachments/assets/a0ead9a9-d804-4c69-912b-7f038c43af21" />
+<img width="1010" height="412" alt="Final_PCB" src="https://github.com/user-attachments/assets/4d89601a-f4e8-4085-8a32-1623c93437ad" />
+<img width="1122" height="473" alt="Final_PCB(3d)" src="https://github.com/user-attachments/assets/eff43778-76d4-4d14-9ec9-a07e3a5df0bd" />
+<img width="935" height="471" alt="CAD_case" src="https://github.com/user-attachments/assets/f820dc94-6b7d-4d91-877b-2104c5420132" />
+<img width="827" height="377" alt="CAD_plate" src="https://github.com/user-attachments/assets/71a01d38-9771-4966-bffd-ae04b6f5317b" />
+<img width="782" height="462" alt="CAD_final" src="https://github.com/user-attachments/assets/e449bb22-ccc8-4305-b3a7-bd4967e20e17" />
 
 
 Ill also attach the .step file for the PCB and the .f3d file for the 3d model i  have worked on to this repository for future reference...
