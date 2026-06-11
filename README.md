@@ -38,7 +38,7 @@ I also added these rotary encoders(one in each hand) to control the sound and br
  Changed the full design of the PCB to make it as slim as possible (could've done better tbh) to lower the cost of manufacturing the PCB + the fact it would look like a cleaner and nicer build in general. After that, I shifted the Pico W upwards (all the wayyyyyy to the edge) for easier access to the USB port and simpler routing and debugging
 Continuing with those changes, I moved on to the CAD models, changed the case and plate to fit the new PCB, and mostly did some polishing for where the USB-C would go and where the slide switch should go. 
 
-
+I also put the pico to the edge to easily debug and a lot of dat. Cant wait to build this!
 
 ## Photos of where I'm at now 
 
