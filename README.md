@@ -29,11 +29,12 @@ Because I used the hackclbu split keyboard tutorial as a foundation, one of the 
 
 ### 🔄 Rotary Encoders
 
-I also added these rotary encoders(one each hand) to control the sound and brightness of the screen. These just make the design more fun and unique, and it would not change a lot if these were not on the pcb
+I also added these rotary encoders(one in each hand) to control the sound and brightness of the screen. These just make the design more fun and unique, and it would not change a lot if these were not on the PCB so feel free to change stuff around!
+
 ---
 
 ## UPDATES
- Changed the full design of the PCB to make it as slim as possible (could've done better tbh) to lower the cost of manufacturing the PCB + the fact it would look like a cleaner and nicer build in general. After that, I shifted the Pico W upwards for easier access to the USB port and simpler routing and debugging
+ Changed the full design of the PCB to make it as slim as possible (could've done better tbh) to lower the cost of manufacturing the PCB + the fact it would look like a cleaner and nicer build in general. After that, I shifted the Pico W upwards (all the wayyyyyy to the edge) for easier access to the USB port and simpler routing and debugging
 Continuing with those changes, I moved on to the CAD models, changed the case and plate to fit the new PCB, and mostly did some polishing for where the USB-C would go.
 
 
