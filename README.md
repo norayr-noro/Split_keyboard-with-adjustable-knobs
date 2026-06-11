@@ -1,7 +1,8 @@
 # ⌨️ Split Keyboard Project
 Making your own keyboard sounds difficult, but it really isn't! And this repo is proof of that. As a beginner in the field of CAD and PCB design, this is an ideal project to make because it combines areas like PCB and CAD modeling, and in this repo, I'll be writing on how I built it following the guide on hackclub stasis!
 
-<img width="670" height="285" alt="Screenshot 2026-06-04 205529" src="https://github.com/user-attachments/assets/dac62670-7257-45a9-ab61-4fdbf0fc2a43" />
+<img width="667" height="293" alt="image" src="https://github.com/user-attachments/assets/5c00ea47-3108-4733-822d-e85a52db5863" />
+
 
 
 ---
