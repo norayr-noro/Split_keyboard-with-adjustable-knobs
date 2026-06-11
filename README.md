@@ -1,5 +1,5 @@
 # ⌨️ Split Keyboard Project
-Building a split keyboard might sound a bit difficult for a beginner, mostly because of how much you'd learn, and that's why i think its a good project to start of with! Im building this slit keyboard mostly because the project uses pcb designing, schematic building and even cad modelling  all in one! Might sound like a lot, but that's why I thought this project is ideal for a beginner.
+Building a split keyboard might sound a bit difficult for a beginner, mostly because of how much you'd learn, and that's why i think its a good project to start off with! Im building this slit keyboard mostly because the project uses pcb designing, schematic building and even cad modelling  all in one! Sounds like a lot of work, but it's really easy to understand and this repo is my journey on how I designed the full project!!!!!!!
 
 <img width="670" height="285" alt="Screenshot 2026-06-04 205529" src="https://github.com/user-attachments/assets/dac62670-7257-45a9-ab61-4fdbf0fc2a43" />
 
@@ -23,15 +23,8 @@ Here I'll put down all the components I will likely use in the full project:
 All libraries I used are in the Stasis Hackclub guide(https://stasis.hackclub.com/starter-projects/split-keyboard) + I also used the symbols and footprints for the Raspberry Pi from ScottoKeeb's (I recommend checking him out for anything custom keyboard related!!his YouTube channel is https://www.youtube.com/watch?v=8WXpGTIbxlQ&list=PLBD2IS_t_iWZDMdG_ZF57x9Ebm3kxKqxF&index=3)
 
 ## 🧠 Design 
-Because I used the hackclbu split keyboard tutorial as a foundation, one of the biggest changes was switching from the **XIAO nRF52840 (SMD)** to the **Raspberry Pi Pico**. The reason for that is mostly for convenience as I had a few picos lying around, and also more GPIO pins to make a proper keyboard.(more pins = more rows/columbs = more keys)
-To manage inputs efficiently, the keyboard uses a **diode + switch matrix**, which:
+Because I used the hackclbu split keyboard tutorial as a foundation, one of the biggest changes was switching from the XIAO nRF52840 (SMD) to the Raspberry Pi Pico. The reason for that is mostly for convenience as I had a few picos lying around and also more GPIO pins to make a proper keyboard.(more pins = more rows/columbs = more keys), and with the diode+switch matrix would make an ideal build.
 
----
-
-## ⚙️ Firmware
-
-The ZMK firmware was chosen mostly because it's quite flexible, especially for custom keyboard builds.
-from https://zmk.dev/docs/features/split-keyboards
 ---
 
 ### 🔄 Rotary Encoders
