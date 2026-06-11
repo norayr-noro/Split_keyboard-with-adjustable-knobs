@@ -42,9 +42,9 @@ Continuing with those changes, I moved on to the CAD models, changed the case an
 ## Photos of where I'm at now 
 
 <img width="1085" height="631" alt="Screenshot 2026-04-26 144541" src="https://github.com/user-attachments/assets/a0ead9a9-d804-4c69-912b-7f038c43af21" />
-<img width="1010" height="412" alt="Final_PCB" src="https://github.com/user-attachments/assets/4d89601a-f4e8-4085-8a32-1623c93437ad" />
-<img width="1122" height="473" alt="Final_PCB(3d)" src="https://github.com/user-attachments/assets/eff43778-76d4-4d14-9ec9-a07e3a5df0bd" />
-<img width="935" height="471" alt="CAD_case" src="https://github.com/user-attachments/assets/f820dc94-6b7d-4d91-877b-2104c5420132" />
+<img width="1001" height="378" alt="image" src="https://github.com/user-attachments/assets/e13ece1f-1b0f-429e-b3a0-ce0bbfd60b19" />
+<img width="1066" height="473" alt="image" src="https://github.com/user-attachments/assets/2b1b3858-2901-4fab-ae89-3659396544f3" />
+
 <img width="827" height="377" alt="CAD_plate" src="https://github.com/user-attachments/assets/71a01d38-9771-4966-bffd-ae04b6f5317b" />
 <img width="782" height="462" alt="CAD_final" src="https://github.com/user-attachments/assets/e449bb22-ccc8-4305-b3a7-bd4967e20e17" />
 
