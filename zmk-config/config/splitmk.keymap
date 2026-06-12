@@ -1,0 +1,142 @@
+/*
+ * SplitMK Keymap
+ *
+ * 60 key positions total (30 left + 30 right)
+ * Positions 28-29 (left) and 58-59 (right) are unused matrix
+ * positions — bound to &trans.
+ *
+ * Layers:
+ *   0 — Base    (QWERTY)
+ *   1 — Lower   (Numbers, symbols)
+ *   2 — Raise   (Navigation, F-keys)
+ *   3 — Adjust  (Media, RGB, BT)
+ *   (i genuenly have no idea on what to write in cooments)
+ */
+
+#include <behaviors.dtsi>
+#include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/bt.h>
+#include <dt-bindings/zmk/ext_power.h>
+#include <dt-bindings/zmk/outputs.h>
+
+/* using these just for simplicitys sake */
+#define BASE   0
+#define LOWER  1
+#define RAISE  2
+#define ADJUST 3
+
+/ {
+
+    /* (homerow mods) */
+    behaviors {
+        hm: homerow_mods {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HOMEROW_MODS";
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+            quick-tap-ms = <125>;
+            flavor = "tap-preferred";
+            bindings = <&kp>, <&kp>;
+        };
+    };
+
+    /* ── Keymap ───────────────────────────
+     * god help me
+     */
+    keymap {
+        compatible = "zmk,keymap";
+
+        /* ── Layer 0: Base (QWERTY) ─────────────────────────── */
+        base_layer {
+            label = "Base";
+            bindings = <
+            /*  LEFT HAND — rows 0-4                                                                              */
+            /*  row 0 */ &kp TAB      &kp Q        &kp W        &kp E        &kp R        &kp T
+            /*  row 1 */ &kp LCTRL    &hm LGUI A   &hm LALT S   &hm LSFT D   &hm LCTRL F  &kp G
+            /*  row 2 */ &kp LSFT     &kp Z        &kp X        &kp C        &kp V        &kp B
+            /*  row 3 */ &trans       &trans        &kp LGUI     &kp LALT     &mo LOWER    &kp SPC
+            /*  row 4 */ &kp GRAVE    &kp BSLH      &kp LBKT     &kp RBKT     &trans       &trans
+
+            /*  RIGHT HAND — rows 0-4                                                                             */
+            /*  row 0 */ &kp Y        &kp U        &kp I        &kp O        &kp P        &kp BSPC
+            /*  row 1 */ &kp H        &hm RCTRL J  &hm RSFT K   &hm RALT L   &hm RGUI SEMI &kp SQT
+            /*  row 2 */ &kp N        &kp M        &kp COMMA    &kp DOT      &kp FSLH     &kp RSFT
+            /*  row 3 */ &kp ENT      &mo RAISE    &kp RALT     &kp RGUI     &trans       &trans
+            /*  row 4 */ &trans       &trans        &kp MINUS    &kp EQUAL    &trans       &trans
+            >;
+
+            /* Encoder bindings: left=volume, right=scroll */
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN
+                               &inc_dec_kp PG_UP PG_DN>;
+        };
+
+        /* ── Layer 1: Lower (Numbers & Symbols) ────────────── */
+        lower_layer {
+            label = "Lower";
+            bindings = <
+            /*  LEFT                                                                                               */
+            &kp ESC      &kp N1       &kp N2       &kp N3       &kp N4       &kp N5
+            &trans       &kp EXCL     &kp AT       &kp HASH     &kp DLLR     &kp PRCNT
+            &trans       &trans       &trans       &trans       &trans       &trans
+            &trans       &trans       &trans       &trans       &trans       &trans
+            &trans       &trans       &trans       &trans       &trans       &trans
+
+            /*  RIGHT                                                                                              */
+            &kp N6       &kp N7       &kp N8       &kp N9       &kp N0       &kp DEL
+            &kp CARET    &kp AMPS     &kp STAR     &kp LPAR     &kp RPAR     &kp TILDE
+            &kp UNDER    &kp PLUS     &kp LBRC     &kp RBRC     &kp PIPE     &trans
+            &trans       &mo ADJUST   &trans       &trans       &trans       &trans
+            &trans       &trans       &kp MINUS    &kp EQUAL    &trans       &trans
+            >;
+
+            sensor-bindings = <&inc_dec_kp C_BRI_UP C_BRI_DN
+                               &inc_dec_kp C_NEXT C_PREV>;
+        };
+
+        /* ── Layer 2: Raise (Navigation & F-keys) ────────────im never doing this again cuz wth is this broooooo :cry: */
+        raise_layer {
+            label = "Raise";
+            bindings = <
+            /*  LEFT                                                                                               */
+            &kp F1       &kp F2       &kp F3       &kp F4       &kp F5       &kp F6
+            &trans       &kp HOME     &kp PG_DN    &kp PG_UP    &kp END      &trans
+            &trans       &trans       &trans       &trans       &trans       &trans
+            &trans       &trans       &trans       &trans       &mo ADJUST   &trans
+            &trans       &trans       &trans       &trans       &trans       &trans
+
+            /*  RIGHT                                                                                              */
+            &kp F7       &kp F8       &kp F9       &kp F10      &kp F11      &kp F12
+            &kp LEFT     &kp DOWN     &kp UP       &kp RIGHT    &trans       &trans
+            &kp INS      &kp DEL      &trans       &trans       &trans       &trans
+            &trans       &trans       &trans       &trans       &trans       &trans
+            &trans       &trans       &trans       &trans       &trans       &trans
+            >;
+
+            sensor-bindings = <&inc_dec_kp LA(LEFT) LA(RIGHT)
+                               &inc_dec_kp C_VOL_UP C_VOL_DN>;
+        };
+
+        /* ── Layer 3:(BT, Media, Power) ────────────── */
+        adjust_layer {
+            label = "Adjust";
+            bindings = <
+            /*  LEFT                                                                                               */
+            &bootloader  &sys_reset   &trans       &trans       &trans       &trans
+            &trans       &trans       &trans       &trans       &trans       &trans
+            &trans       &trans       &trans       &trans       &trans       &bt BT_CLR
+            &trans       &trans       &trans       &trans       &trans       &trans
+            &trans       &trans       &trans       &trans       &trans       &trans
+
+            /*  RIGHT                                                                                              */
+            &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 &trans
+            &out OUT_TOG &trans       &trans       &trans       &trans       &trans
+            &kp C_PP     &kp C_MUTE   &kp C_VOL_DN &kp C_VOL_UP &trans       &trans
+            &trans       &trans       &trans       &trans       &trans       &trans
+            &trans       &trans       &trans       &trans       &trans       &bootloader
+            >;
+
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN
+                               &inc_dec_kp C_VOL_UP C_VOL_DN>;
+        };
+    };
+};

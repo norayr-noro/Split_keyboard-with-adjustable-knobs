@@ -1,0 +1,30 @@
+if SHIELD_SPLITMK_LEFT || SHIELD_SPLITMK_RIGHT
+
+config ZMK_KEYBOARD_NAME
+    default "SplitMK"
+
+config ZMK_SPLIT
+    default y
+
+config ZMK_SPLIT_BLE
+    default y
+
+# Left side is the central (connects to PC via BLE)
+config ZMK_SPLIT_BLE_ROLE_CENTRAL
+    default y if SHIELD_SPLITMK_LEFT
+
+config ZMK_SPLIT_BLE_ROLE_PERIPHERAL
+    default y if SHIELD_SPLITMK_RIGHT
+
+# Enable encoder support
+config EC11
+    default y
+
+config EC11_TRIGGER_GLOBAL_THREAD
+    default y
+
+# Battery reporting (if you add a LiPo to each side)
+config ZMK_BATTERY_REPORTING
+    default y
+
+endif
