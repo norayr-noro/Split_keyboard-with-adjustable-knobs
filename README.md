@@ -51,6 +51,7 @@ I also put the pico to the edge to easily debug and a lot of dat. Cant wait to b
 
 Herese the final full assembly of the case and plate (looks a bit chonky but still not bad):
 <img width="896" height="393" alt="image" src="https://github.com/user-attachments/assets/c294463a-afe7-4a3a-815e-6ec3e913e843" />
+<img width="839" height="331" alt="image" src="https://github.com/user-attachments/assets/b2b2380b-4e2b-4d7a-ba51-0491ec69460e" />
 
 
 I'll also attach the .step file for the PCB and the .f3d file for the 3d model i  have worked on to this repository for future reference...
