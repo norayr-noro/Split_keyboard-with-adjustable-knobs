@@ -49,9 +49,10 @@ I also put the pico to the edge to easily debug and a lot of dat. Cant wait to b
 <img width="827" height="377" alt="CAD_plate" src="https://github.com/user-attachments/assets/71a01d38-9771-4966-bffd-ae04b6f5317b" />
 <img width="782" height="462" alt="CAD_final" src="https://github.com/user-attachments/assets/e449bb22-ccc8-4305-b3a7-bd4967e20e17" />
 
-Herese the final full assembly of the case and plate (looks a bit chonky but still not bad):
-<img width="896" height="393" alt="image" src="https://github.com/user-attachments/assets/c294463a-afe7-4a3a-815e-6ec3e913e843" />
-<img width="839" height="331" alt="image" src="https://github.com/user-attachments/assets/b2b2380b-4e2b-4d7a-ba51-0491ec69460e" />
+Herese the final full assembly of the case and plate (looks a bit chonky but still not bad): (THE NEW MODEL)
+<img width="911" height="267" alt="Screenshot 2026-06-18 133509" src="https://github.com/user-attachments/assets/d4fdb1a0-83c8-4765-8d95-131d4bb4588d" />
+<img width="904" height="438" alt="Screenshot 2026-06-18 133445" src="https://github.com/user-attachments/assets/5f12dd22-117f-496b-814a-f212d1d8b9f0" />
+
 
 
 I'll also attach the .step file for the PCB and the .f3d file for the 3d model i  have worked on to this repository for future reference...
